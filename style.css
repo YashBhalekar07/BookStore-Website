@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+  color: #a6a5a5;
+}
+
+.gradcolor-home {
+  background-image: linear-gradient(rgb(181, 211, 195), white);
+}
+
+.home-head {
+  font-size: 3.2rem;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: rgb(53, 53, 53);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-top: -1rem;
+}
+
+nav a {
+  color: black;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  width: 12rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+  background-color: rgb(192, 212, 201);
+  padding: 0.6rem;
+  border-radius: 1rem;
+  width: 12rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bookstore-img {
+  width: 100%;
+  height: 430px;
+  mask-image: linear-gradient(to right, #000000 50%, transparent 100%);
+}
+
+.home-slider-ul {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  margin-top: 1rem;
+  scrollbar-color: red;
+}
+
+.book-inline {
+  display: flex;
+}
+
+.about {
+  font-size: 2.5rem;
+  padding: 3.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.home-about {
+  padding: 3.5rem;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  padding: 1rem;
+}
+
+#login {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(52, 51, 51);
+  margin-top: -1rem;
+}
+
+.containerl {
+  display: flex;
+  width: 25rem;
+  height: 27rem;
+  background-color: rgb(223, 244, 237);
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  justify-content: center;
+  gap: 1.6rem;
+  margin: 6.2rem 29rem;
+  box-shadow: 10px 20px 30px rgb(174, 173, 173);
+}
+
+.childl {
+  width: 18rem;
+  height: 3rem;
+  padding: 1.3rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  border: none;
+  font-size: 1rem;
+}
+
+#loginbtn {
+  width: 18rem;
+  height: 3.2rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  background-color: rgb(172, 202, 186);
+  text-align: center;
+  border: none;
+  font-size: 1rem;
+  color: rgb(37, 37, 37);
+  font-size: 1.2rem;
+}
+
+.container-newacc-child {
+  padding: 0.8rem;
+  border-radius: 1rem;
+  border: 1px gainsboro;
+  width: 19rem;
+}
+
+.flexxacc {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-newacc-child2 {
+  padding: 0.8rem;
+  border-radius: 1rem;
+  border: 1px gainsboro;
+  width: 12rem;
+}
+
+.createheading {
+  font-size: 2rem;
+  color: black;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.createbtn {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  width: 19rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: rgb(172, 202, 186);
+  color: rgb(56, 56, 56);
+  font-weight: 500;
+}
+
+.cat-head {
+  font-size: 3.2rem;
+  background-color: rgb(172, 202, 186);
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: rgb(53, 53, 53);
+}
+
+.flexc {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexr {
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  margin-top: 0.6rem;
+  gap: 5rem;
+  justify-content: center;
+}
+
+span {
+  font-size: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+.cat-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+.cat-book {
+  width: 20rem;
+  background-color: rgb(223, 244, 237);
+  height: 26rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  padding-inline: 1.5rem;
+  padding-block: 1.5rem;
+}
+
+.img-cat {
+  height: 15rem;
+  width: 17rem;
+  border-radius: 1rem;
+}
+
+.cat-book-contain {
+  margin-top: 0.3rem;
+}
+
+.cat-btn {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 8rem;
+  border-radius: 1rem;
+  background-color: rgb(172, 202, 186);
+  border: none;
+  color: rgb(37, 37, 37);
+}
+
+.price {
+  color: black;
+  font-weight: bold;
+}
+
+.cat-book-contains {
+  margin-bottom: 10px;
+}

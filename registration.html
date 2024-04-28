@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .container-newacc {
+        width: 25rem;
+        height: 35rem;
+        background-color: rgb(223, 244, 237);
+        border-radius: 2rem;
+        box-shadow: 10px 10px 30px rgb(210, 209, 209);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.1rem;
+        margin: 3rem 3rem;
+        margin-top: 3rem; /* Adjust as needed */
+        margin-left: auto; /* Align to the right */
+      }
+
+      .back {
+        background-image: url("sneha.jpg");
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: left; /* Align image to the left */
+        width: 100vw; /* Full width of the viewport */
+        height: 100vh; /* Full height of the viewport */
+        background-attachment: fixed; /* Keep the background fixed */
+      }
+
+      .back form {
+        margin-left: auto; /* Align the form to the right */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="back">
+      <form
+        method="post"
+        name="registration-form"
+        onsubmit="return validateForm()"
+      >
+        <div class="container-newacc">
+          <p class="createheading">Register</p>
+          <input
+            type="text"
+            id="Name"
+            placeholder="Name"
+            required
+            class="container-newacc-child"
+          />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+            class="container-newacc-child"
+            autocomplete="current-password"
+          />
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            required
+            class="container-newacc-child"
+          />
+          <input
+            type="text"
+            id="address"
+            placeholder="Address"
+            required
+            class="container-newacc-child"
+          />
+          <input
+            type="number"
+            id="con-no"
+            placeholder="Contact Number"
+            required
+            class="container-newacc-child"
+          />
+
+          <div class="flexxacc">
+            <p>Date of Birth</p>
+            <input
+              type="date"
+              id="dob"
+              placeholder="Date of Birth"
+              required
+              class="container-newacc-child2"
+            />
+          </div>
+          <div class="flexxacc">
+            <p>Select Gender :</p>
+            <label for="female">female</label>
+            <input type="radio" id="female" name="female" />
+            <label for="male">male</label>
+            <input type="radio" id="male" name="male" value="male" />
+          </div>
+          <input type="submit" value="Register" class="createbtn" />
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
